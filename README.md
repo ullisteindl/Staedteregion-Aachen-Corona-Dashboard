@@ -1,3 +1,6 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ullisteindl/Staedteregion-Aachen-Corona-Dashboard/HEAD)
+
+
 # Staedteregion-Aachen-Corona-Dashboard
 Corona Dashboard based on the open data Corona stats of the Städteregion Aachen
 
