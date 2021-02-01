@@ -1,0 +1,102 @@
+{
+  "Positiv": {
+    "desc": "Kumulierte Anzahl Erkrankter",
+    "plot_type": "lineplot",
+    "sharey": [
+      "Genesen",
+      "Tote",
+      "Positiv"
+    ],
+    "unit": "Anzahl Fälle"
+  },
+  "Genesen": {
+    "desc": "Kumulierte Anzahl Genesener",
+    "plot_type": "lineplot",
+    "sharey": [
+      "Genesen",
+      "Tote",
+      "Positiv"
+    ],
+    "unit": "Anzahl Fälle"
+  },
+  "Tote": {
+    "desc": "Kumulierte Anzahl Verstorbener",
+    "plot_type": "lineplot",
+    "sharey": [
+      "Genesen",
+      "Tote",
+      "Positiv"
+    ],
+    "unit": "Anzahl Fälle"
+  },
+  "Aktiv": {
+    "desc": "Momentan Aktive Erkrankungen",
+    "plot_type": "lineplot",
+    "sharey": [
+      "Aktiv"
+    ],
+    "unit": "Anzahl Fälle"
+  },
+  "Inzidenz": {
+    "desc": "Siebentageinzidenz",
+    "plot_type": "lineplot",
+    "sharey": [
+      "Inzidenz",
+      "Inzidenz_smoothed"
+    ],
+    "unit": "Fälle pro 100 000 Einwohner"
+  },
+  "Tote_diff": {
+    "desc": "Verstorbene pro Tag",
+    "plot_type": "scatterplot",
+    "sharey": [
+      "Tote_diff"
+    ],
+    "unit": "Anzahl Fälle pro Tag"
+  },
+  "Neuinfektionen": {
+    "desc": "Neuinfektionen pro Tag",
+    "plot_type": "lineplot",
+    "sharey": [
+      "Neuinfektionen",
+      "Neuinfektionen_7dm"
+    ],
+    "unit": "Anzahl Fälle pro Tag"
+  },
+  "Neuinfektionen_7dm": {
+    "desc": "Neuinfektionen sieben Tage Mittel",
+    "plot_type": "lineplot",
+    "sharey": [
+      "Neuinfektionen",
+      "Neuinfektionen_7dm"
+    ],
+    "unit": "Anzahl Fälle/7 Tage"
+  },
+  "Inzidenz_smoothed": {
+    "desc": "Siebentageinzidenz geglättet",
+    "plot_type": "lineplot",
+    "sharey": [
+      "Inzidenz",
+      "Inzidenz_smoothed"
+    ],
+    "unit": "Fälle pro 100 000 Einwohner"
+  },
+  "r4": {
+    "desc": "Vier-Tage Reproduktionszahl",
+    "plot_type": "lineplot",
+    "sharey": [
+      "r4",
+      "r7"
+    ],
+    "unit": "Reproduktionszahl"
+  },
+  "r7": {
+    "desc": "Sieben-Tage Reproduktionszahl",
+    "plot_type": "lineplot",
+    "sharey": [
+      "r4",
+      "r7"
+    ],
+    "unit": "Reproduktionszahl"
+  }
+}
